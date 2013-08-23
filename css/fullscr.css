@@ -5,3 +5,75 @@ body{
 	margin:0px;
 	padding:0px;
 }
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#part1{
+	width:50%;
+	height:50%;
+	position: absolute;
+	background-color: #000000;
+	-webkit-transform-origin:100% 100%;
+	-webkit-transform: skew(30deg,20deg);
+	color: #ffffff;
+	position:relative;
+	overflow: hidden;
+
+}
+#sub-part{
+	width:400px;
+	height:200px;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	color:#ffffff;
+	-webkit-transform: skew(-30deg,-20deg);
+	font-size: 30px;
+
+}
+#part2{
+	width:50%;
+	height:50%;
+	position: absolute;
+	top: 0%;
+	right:0%;
+	background-color: #000000;
+	-webkit-transform-origin:0% 100%;
+	-webkit-transform: skew(-30deg,-20deg);
+
+}
+#part3{
+	width:50%;
+	height:50%;
+	position: absolute;
+	bottom: 0%;
+	left:0%;
+	background-color: #000000;
+	-webkit-transform-origin:100% 0%;
+	-webkit-transform: skew(-30deg,-20deg);
+
+}
+#part4{
+	width:50%;
+	height:50%;
+	position: absolute;
+	bottom: 0%;
+	right:0%;
+	background-color: #000000;
+	-webkit-transform-origin:0% 0%;
+	-webkit-transform: skew(30deg,20deg);
+
+}
+#circle{
+	width:300px;
+	height: 300px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left: -150px;
+	margin-top: -150px;
+	border-radius: 150px;
+	-webkit-border-radius:150px;
+	background-color: #ffffff;
+}
